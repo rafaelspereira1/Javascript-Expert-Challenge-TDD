@@ -1,2 +1,4 @@
 node_modules
-/database/  
+/database/ 
+.nyc_output 
+/coverage/ 
