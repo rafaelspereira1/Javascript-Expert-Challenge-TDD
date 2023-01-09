@@ -1,0 +1,24 @@
+{
+  "name": "javascript-expert-challenge-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rafaelspereira1/Javascript-Expert-Challenge-TDD.git",
+  "author": "Rafael Pereira <rafaelspereira1@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc mocha --parallel **/**/*.test.js",
+    "seed": "node ./seed"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.0.1"
+  }
+}
